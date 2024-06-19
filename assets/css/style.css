@@ -502,8 +502,8 @@ main {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
-  background-color: #007bff;
+  color: #0e0e0e;
+  background-color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
@@ -511,15 +511,15 @@ main {
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #0e0e0e;
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #ceb15a;
 }
 
 .about .article-title { margin-bottom: 15px; }
