@@ -431,20 +431,41 @@ main {
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-item {
+  display: flex;
   align-items: center;
-  gap: 15px;
-  padding-bottom: 4px;
-  padding-left: 7px;
+  justify-content: center;
 }
 
-.social-item .social-link {
-  color: var(--light-gray-70);
-  font-size: 18px;
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fdd85d; /* Yellow color */
+  color: #000; /* Black icon color */
+  font-size: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.social-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.linkedin-button ion-icon {
+  font-size: 28px; /* Adjust icon size */
+}
+
 
 
 
